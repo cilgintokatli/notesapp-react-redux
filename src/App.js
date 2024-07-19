@@ -12,6 +12,15 @@ function App() {
         <Search />
         <AddNote />
         <Notes />
+        <p style={{ textAlign: "center", color: "gray" }}>
+          made by{" "}
+          <a
+            href="https://github.com/cilgintokatli"
+            style={{ color: "#9b9b9b" }}
+          >
+            okan şahin
+          </a>
+        </p>
       </div>
     </div>
   );
